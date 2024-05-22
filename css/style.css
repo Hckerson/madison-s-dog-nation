@@ -1,0 +1,101 @@
+.gradient-background,#footer {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.snd{
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+#hanging-icons{
+  margin-top: 3rem !important;
+  margin-left: 10%;
+}
+.test, .text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 25px 100px;
+}
+.dog{
+  border-radius: 50%;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  height: 100px !important;
+}
+h2{
+  font-size: 3rem;
+  text-align: center;
+}
+.pix{
+  display: flex;
+  flex-direction: row !important;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+section p {
+  width: 60%;
+  text-align: center;
+}
+.pix > div{
+  flex: 1 !important;
+  display: flex;
+  justify-content: center !important;
+}
+
+section img{
+  height: 40px;
+}
+.but1{
+  background-color: white;
+  color: black;
+}
+.but2{
+  border-color: white;
+  color: white;
+}
+.py-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 100px;
+}
+.pricing-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main{
+  width: 100% !important;
+}
+.b1{
+  background-color: black !important;
+}
